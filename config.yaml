@@ -2,3 +2,148 @@ baseURL: https://angelaledo29.github.io/
 languageCode: en-us
 title: My New Hugo Site
 theme: sada
+
+[params]
+    title = "PortFolio Personal"
+    author = "Darshan Baral"
+    description = "Perfil Profesional"
+    copyright = "Custom copyright message"
+    theme = "light" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Ángela Ledo Uriel"
+        photo = "images/icon.jpg"
+        direction = "Avenida Valencia, 38 7 Izq, 50005 Zaragoza (España)"
+        telephone = "(+34) 657 89 47 56"
+        email = "angelaledo29@gmail.com"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Social"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/ángela-ledo-uriel-1279a622b/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/AngelaLedo29"
+        title = "GitHub"
+
+        [[params.social.list]]
+        icon = "fab fa-twitter"
+        url = "#"
+        title = "Twitter"
+
+        [[params.social.list]]
+        icon = "fab fa-skype"
+        url = "#"
+        title = "Skype"
+
+        [[params.social.list]]
+        icon = "fab fa-discord"
+        url = "#"
+        title = "Discord"
+
+    # Education section
+    [params.education]
+        title = "Educación y Formación"
+
+        [[params.education.list]]
+        degree = "Grado Superior de Desarrollo de Aplicaciones Web"
+        college = "CPIFP Los Enlaces"
+        dates = "Sep 2022 - Actualidad"
+        direction = "C. de Jarque de Moncayo, 10, 50012 Zaragoza (España)"
+        thesis_title = "CPIFP Los Enlaces"
+        thesis_link = "https://cpilosenlaces.com/"
+
+        [[params.education.list]]
+        degree = "Grado Superior de Desarrollo de Aplicaciones Multiplataforma"
+        college = "Colegio Salesianos 'Nuestra Señora del Pilar'"
+        dates = "Sep 2020 - Jun 2022"
+        direction = "C. de María Auxiliadora, 57, 50009 Zaragoza (España)"
+        thesis_title = "Colegio Salesianos"
+        thesis_link = "https://zaragoza.salesianos.edu/"
+
+        [[params.education.list]]
+        degree = "Grado Medio de Gestión de Administración"
+        college = "Izquierdo FP - Centro Concertado de Formación Profesional"
+        dates = "Sep 2018 - Jun 2020"
+        direction = "Av. del Tenor Fleta, 57, 50008 Zaragoza (España)"
+        thesis_title = "Izquierdo FP"
+        thesis_link = "https://izquierdofp.es/"
+
+        [[params.education.list]]
+        degree = "Educación Secundaría Obligatoria (ESO)"
+        college = "Colegio Santa Rosa FESD"
+        dates = "Sep 2014 - Jun 2018"
+        direction = "C/ del Azoque, 33, 50004 Zaragoza (España)"
+        thesis_title = "Colegio Santa Rosa FESD"
+        thesis_link = "https://santarosa.fesd.es/"
+
+    # Languages section
+    [params.language]
+        title = "Idiomas"
+
+        [[params.language.list]]
+        language = "Español"
+        level = "Nativo"
+				
+        [[params.language.list]]
+        language = "Inglés"
+        level = "Nivel Medio"
+
+    # Interests section
+    [params.hobbies]
+        title = "Habilidades"
+
+        [[params.hobbies.list]]
+        interest = "Responsable y puntual"
+		
+		[[params.hobbies.list]]
+        interest = "Responsabilidad en el trabajo"
+
+        [[params.hobbies.list]]
+        interest = "Capacidad para aprender cosas nuevas"
+
+        [[params.hobbies.list]]
+        interest = "Puntualidad, orden y organización en el trabajo"
+
+    [params.aboutme]
+        description = "Estudiante de Segundo de Grado Superior de Desarrollo de Aplicaciones Web. Dispuesta a poner en práctica mis conocimientos aprendidos y mi pasión por el sector de la programación web."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiencia Laboral"
+
+        [[params.jobs.list]]
+        position = "(GFT) Becaria en prácticas (FCT)"
+        dates = "Abr 2022 - Jun 2022"
+		link = "https://www.gft.com/es/es"
+        company = "GFT IT Consulting, S.L."
+        direction = "Pl. de Antonio Beltrán Martínez, 1, 50002 Zaragoza (España)"
+
+    # Skills section
+    [params.skills]
+        title = "Competencias Digitales"
+
+        [[params.skills.list]]
+        skill = "Microsoft (Microsoft Word, Microsoft PowerPoint, Microsoft Excel, Microsoft Access)"
+
+        [[params.skills.list]]
+        skill = "Visual Studio (ASP .Net, C#)"
+                
+        [[params.skills.list]]
+        skill = "JSF (Java Server Faces)"
+
+        [[params.skills.list]]
+        skill = "ANGULAR"
+
+        [[params.skills.list]]
+        skill = "JAVA, HTML, CSS, MYSQL, JAVASCRIPT, PYTHON"
+
+        [[params.skills.list]]
+        skill = "Spring Hibernate, MVC, Maven, Spring Boot"
